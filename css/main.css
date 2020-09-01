@@ -86,6 +86,64 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+   /* General Styles */
+    
+html {
+  font-size: 16px;
+   }
+    
+body {
+  color:#e2e3ed;
+  font-family: "open Sans", sans-serif;
+  font-size: 1em;
+  text-align: left;;
+}
+    
+ul, 
+ol {
+    list-style-type: none;
+    font-size: 1.125em;
+    padding-inline-start: 0px;
+   }
+    
+a {
+  color: #e2e3ed;
+  text-decoration: none;   
+   }
+    
+h2 {
+  font-family:"Poppins", sans-serif;
+  font-size: 1.7em;
+}
+    
+h3, 
+h4 {
+  font-family:"Poppins", sans-serif;
+  font-size: 1.125em;
+  font-weight: bold;
+ }
+    
+p {
+   font-size: 1em;  
+   }
+    
+img {
+    width: 100%;
+    height:auto;
+   }
+    
+figure {
+    
+   }
+    
+address {
+    font-style: normal;
+    text-align: center;
+   }
+.social{
+  text-align: center;
+}
 
 .content-wrapper {
   width: 90%;
@@ -162,11 +220,17 @@ footer .copyright {
   justify-content: center;
   flex-flow: row wrap;
 }
+.hero-area h1{
+  margin:45px;
+}
 aside {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-flow: row wrap;
+}
+.signup input{
+  margin: 5px;
 }
 .features {
   display: flex;
@@ -342,9 +406,13 @@ aside {
     padding: 33px 0;
   }
   header .content-wrapper{
-    width:100%;
+    width:98%;
    justify-content: space-between;
   }
+  img {
+    width: 45%;
+    height:auto;
+   }
   header nav{
     width:20%;
   }
@@ -403,6 +471,9 @@ aside {
   }
   footer .copyright {
     width: 100%;
+  }
+  footer p{
+    text-align: center;
   }
  
   /* About Page */
