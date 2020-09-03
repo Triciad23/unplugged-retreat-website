@@ -223,26 +223,18 @@ footer .copyright {
 
 /***** mobile styles - homepage ******/
 
-.hero-area {
+.hero-area{
+  background: url("../img/jake-melara-30679-unsplash.jpg") no-repeat center center #333;
+  background-size:cover;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-flow: row wrap;
   position: relative;
 }
-.hero-overlay {
-  text-align: left;
-  position:absolute;
-  z-index:0;
-  width:100%
+.hero-overlay{
+  padding:25px 0px 450px 0px;
 }
-.hero-image{
-  display:block;
-  overflow:visible;
-  z-index:-1;
-  margin-left:auto;
-  margin-right:auto;
-  width:100%
-}
+
 .hero-area h1{
   margin:5px;
   font-size:2.25em;
@@ -285,7 +277,8 @@ input[type=button] {
   padding-top: 10px;
 }
 .features {
-  background: url("../img/rawpixel-800820-unsplash1.jpg") transparent;
+  background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
+  background-size:cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
