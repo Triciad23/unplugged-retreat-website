@@ -136,7 +136,7 @@ img {
    }
     
 figure {
-    
+  margin:0;
    }
     
 address {
@@ -162,7 +162,7 @@ footer {
   flex-flow: row wrap;
 }
 header {
-  padding: 15px 0px;
+  padding-top: 15px;
 }
 header .content-wrapper {
   display: flex;
@@ -175,7 +175,14 @@ header .content-wrapper {
   background:#3a3a3a;
   height: 1px;
   width: 100%;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 10px 0;
+}
+header figure{
+  width:60%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow:row wrap;
 }
 header nav {
   display: flex;
@@ -183,7 +190,7 @@ header nav {
   justify-content: space-around;
   align-items: center;
   text-transform: uppercase;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 700;
   width: 60%;
 }
@@ -458,7 +465,7 @@ input[type=button] {
 @media only screen and (min-width: 768px) {
   /*Tablet*/
   .content-wrapper {
-    width: 640px;
+    max-width: 640px;
     margin: 100px 0;
   }
   header{
@@ -469,10 +476,10 @@ input[type=button] {
     width:98%;
    justify-content: space-between;
   }
-  img {
-    width: 49%;
-    height:auto;
-   }
+  header figure{
+    width:35%;
+  }
+  
   header nav{
     width:20%;
   }
@@ -508,6 +515,9 @@ input[type=button] {
   }
   .features .features-item-description{
     width:62%;
+  }
+  .reviews figure{
+    width:49%;
   }
   .reviews article{
   display:flex;
@@ -602,6 +612,13 @@ input[type=button] {
   header {
     padding: 15px 0;
   }
+  header figure{
+    width:33%;
+    padding:0;
+  }
+  .hero-overlay{
+    padding-left:60px;
+  }
   .content-wrapper {
     max-width: 960px;
   }
@@ -643,8 +660,14 @@ input[type=button] {
   .reviews h2 {
     padding-bottom: 50px;
   }
+  .reviews h3{
+    width:100%;
+  }
+  .reviews figure{
+    width:49%;
+  }
   .reviews article div{
-    width:43%;
+    width:48%;
   }
   footer h4 {
     font-size: 1.875em;
