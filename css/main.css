@@ -86,64 +86,64 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
-   /* General Styles */
-    
+
+/* General Styles */
+
 html {
   font-size: 16px;
-   }
-    
+}
+
 body {
-  color:#e2e3ed;
+  color: #e2e3ed;
   font-family: "open Sans", sans-serif;
   font-size: 1em;
   text-align: left;
 }
-    
-ul, 
+
+ul,
 ol {
-    list-style-type: none;
-    font-size: 1.125em;
-    padding-inline-start: 0px;
-   }
-    
+  list-style-type: none;
+  font-size: 1.125em;
+  padding-inline-start: 0px;
+}
+
 a {
   color: #e2e3ed;
-  text-decoration: none;   
-   }
-    
-h2 {
-  font-family:"Poppins", sans-serif;
-  font-size: 1.875em;
-  font-weight:500;
+  text-decoration: none;
 }
-    
-h3, 
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
+
+h3,
 h4 {
-  font-family:"Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.125em;
-  font-weight:500;
+  font-weight: 500;
   margin: 20px 0;
- }
-    
+}
+
 p {
-   font-size: 1em; 
-   line-height: 1.285; 
-   }
-    
+  font-size: 1em;
+  line-height: 1.285;
+}
+
 img {
-    width: 100%;
-   }
-    
+  width: 100%;
+}
+
 figure {
-  margin:0;
-   }
-    
+  margin: 0;
+}
+
 address {
-    font-style: normal;
-    text-align: center;
-   }
-.social{
+  font-style: normal;
+  text-align: center;
+}
+.social {
   text-align: center;
 }
 
@@ -155,7 +155,7 @@ address {
 /***** Base Header - Footer Styles *****/
 header,
 footer {
-  background-color:#202322;
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,17 +172,17 @@ header .content-wrapper {
   margin: 0;
 }
 .header-divider {
-  background:#3a3a3a;
+  background: #3a3a3a;
   height: 1px;
   width: 100%;
   margin: 10px 0 10px 0;
 }
-header figure{
-  width:60%;
-  display:flex;
+header figure {
+  width: 60%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow:row wrap;
+  flex-flow: row wrap;
 }
 header nav {
   display: flex;
@@ -201,7 +201,7 @@ header nav ul {
 }
 footer {
   flex-direction: column;
-  text-align:center;
+  text-align: center;
 }
 footer p {
   margin: 0;
@@ -230,23 +230,24 @@ footer .copyright {
 
 /***** mobile styles - homepage ******/
 
-.hero-area{
-  background: url("../img/jake-melara-30679-unsplash.jpg") no-repeat center center #333;
-  background-size:cover;
+.hero-area {
+  background: url("../img/jake-melara-30679-unsplash.jpg") no-repeat center
+    center #333;
+  background-size: cover;
   display: flex;
   flex-flow: row wrap;
   min-height: 500px;
   position: relative;
 }
-.hero-overlay{
-  padding:25px 0px 450px 0px;
+.hero-overlay {
+  padding: 25px 0px 450px 0px;
 }
 
-.hero-area h1{
-  margin:5px;
-  font-size:2.25em;
-  font-weight:500;
-  line-height:1.2em;
+.hero-area h1 {
+  margin: 5px;
+  font-size: 2.25em;
+  font-weight: 500;
+  line-height: 1.2em;
 }
 aside {
   background: #527158;
@@ -258,21 +259,21 @@ aside {
 aside .form {
   margin-top: 30px;
 }
- 
-input[type=text] {
+
+input[type="text"] {
   box-sizing: border-box;
   width: 100%;
   color: #2a423a;
   font-style: italic;
   padding: 1em;
 }
- 
-input[type=button] {
+
+input[type="button"] {
   width: 100%;
   padding: 20px 0;
   margin-top: 20px;
   background-color: #2a423a;
-  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 1.125em;
   color: #e2e3ed;
@@ -280,12 +281,12 @@ input[type=button] {
   text-align: center;
   text-transform: uppercase;
 }
-.signup{
+.signup {
   padding-top: 10px;
 }
 .features {
   background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
-  background-size:cover;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -304,7 +305,7 @@ input[type=button] {
   flex-flow: row wrap;
 }
 .features p {
-  text-align:center;
+  text-align: center;
   margin: 0;
 }
 .reviews {
@@ -324,28 +325,28 @@ input[type=button] {
 /***** About Page *****/
 
 .mission {
-  background:#527158;
+  background: #527158;
   flex-flow: row wrap;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.map figure{
-  width:100%;
-  height:0;
-  padding-bottom:125%;
-  overflow:hidden;
-  position:relative;
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
 }
-.map iframe{
-  width:100%;
-  height:100%;
-  position:absolute;
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
   top: 0;
   left: 0;
 }
 .contact-section {
-  background:#2a423a;
+  background: #2a423a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -354,16 +355,16 @@ input[type=button] {
 .contact-content p {
   margin: 0;
 }
-.general-info-contact ,
+.general-info-contact,
 .facilitator-contact {
-    font-style: normal;
-    text-align: left;
+  font-style: normal;
+  text-align: left;
 }
 
 /***** FAQ Page *****/
 
 .faq {
-  background:#527158;
+  background: #527158;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -482,91 +483,90 @@ input[type=button] {
     max-width: 640px;
     margin: 100px 0;
   }
-  header{
+  header {
     justify-content: space-around;
     padding: 33px 0;
   }
-  header .content-wrapper{
-    width:98%;
-   justify-content: space-between;
+  header .content-wrapper {
+    width: 98%;
+    justify-content: space-between;
   }
-  header figure{
-    width:35%;
+  header figure {
+    width: 35%;
   }
-  
-  header nav{
-    width:20%;
+
+  header nav {
+    width: 20%;
   }
   header nav ul {
     justify-content: space-between;
   }
-  .header-divider{
+  .header-divider {
     display: none;
   }
-  .hero-area{
-    min-height:600px;
+  .hero-area {
+    min-height: 600px;
   }
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
-    margin:50px;
-    width:75%;
-}
-  aside .content-wrapper{
-    margin:50px 0;
+    margin: 50px;
+    width: 75%;
+  }
+  aside .content-wrapper {
+    margin: 50px 0;
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
   }
-  aside .content-wrapper .form-description ,
-  aside .content-wrapper .signup{
-    width:40%;
-    margin:0;
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .signup {
+    width: 40%;
+    margin: 0;
   }
-  .features article{
+  .features article {
     flex-basis: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow:column wrap;
+    flex-flow: column wrap;
   }
-  .features .features-item-description{
-    width:62%;
+  .features .features-item-description {
+    width: 62%;
   }
-  .reviews figure{
-    width:49%;
+  .reviews figure {
+    width: 49%;
   }
-  .reviews article{
-  display:flex;
-  justify-content: space-between;
-
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
   }
-  .reviews article div{
-    width:49%;
+  .reviews article div {
+    width: 49%;
   }
-  .reviews h2{
+  .reviews h2 {
     width: 85%;
     font-size: 2.25em;
   }
   .reviews h3 {
     width: 75%;
     margin: 0;
-}
-  .reviews img{
-    padding-right:10px;
   }
-  footer .content-wrapper{
-    width:65%;
-    margin:100px 0;
+  .reviews img {
+    padding-right: 10px;
   }
-  .footer-content{
-    display:flex;
-    align-items:center;
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+  .footer-content {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    flex-direction:row;
+    flex-direction: row;
   }
-  .footer .contact{
-    margin-bottom:0;
+  .footer .contact {
+    margin-bottom: 0;
   }
   footer .copyright {
     width: 100%;
@@ -575,66 +575,67 @@ input[type=button] {
     font-size: 1.5em;
     margin-bottom: 40px;
   }
-  footer p{
+  footer p {
     text-align: center;
-    line-height:1.285;
+    line-height: 1.285;
   }
- 
+
   /* About Page */
   .mission-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
-    padding-top:20px;
-}
-
-.mission-content p {
-    width: 45%;
-}
-
-.contact-section .content-wrapper h2 {
-    width: 80%;
-}
-
-.contact-content {
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    flex-flow: row wrap;
-    width:90%;
-}
-.contact-content h4 {
-  font-size: 1.5em;
-}
-/* FAQ Page */
-.faq .content-wrapper{
-  justify-content: space-between;
-}
-.faq-content{
-  flex-basis: 45%;
-}
-.faq h2 {
-  width:100%;
-}
-.faq h4,
-  .faq p {
-      font-size: 1em;
-      line-height: 1.125;
+    padding-top: 20px;
   }
 
+  .mission-content p {
+    width: 45%;
+  }
 
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+  .map figure {
+    padding-bottom: 45%;
+  }
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+    width: 90%;
+  }
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
+  /* FAQ Page */
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+  .faq-content {
+    flex-basis: 45%;
+  }
+  .faq h2 {
+    width: 100%;
+  }
+  .faq h4,
+  .faq p {
+    font-size: 1em;
+    line-height: 1.125;
+  }
+}
 @media only screen and (min-width: 1200px) {
   /*Desktop*/
   header {
     padding: 15px 0;
   }
-  header figure{
-    width:33%;
-    padding:0;
+  header figure {
+    width: 33%;
+    padding: 0;
   }
-  .hero-overlay{
-    padding-left:60px;
+  .hero-overlay {
+    padding-left: 60px;
   }
   .content-wrapper {
     max-width: 960px;
@@ -645,46 +646,46 @@ input[type=button] {
 
   h3,
   h4 {
-      font-size: 1.875em;
+    font-size: 1.875em;
   }
 
   p {
-      font-size: 1.125em;
-      line-height: 1.333;
+    font-size: 1.125em;
+    line-height: 1.333;
   }
-  .hero-area h1{
-    width:52%;
+  .hero-area h1 {
+    width: 52%;
     font-size: 3.75em;
     padding-left: 245px;
   }
-  aside .content-wrapper{
+  aside .content-wrapper {
     justify-content: space-around;
   }
-  aside .content-wrapper .form-description ,
-  aside .content-wrapper .signup{
-    width:35%;
-    margin:25px;
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .signup {
+    width: 35%;
+    margin: 25px;
   }
   .form-description p {
     font-size: 1.125em;
   }
-  .features h2{
-    width:90%;
+  .features h2 {
+    width: 90%;
   }
-  .features article{
-    flex-basis:33%;
+  .features article {
+    flex-basis: 33%;
   }
   .reviews h2 {
     padding-bottom: 50px;
   }
-  .reviews h3{
-    width:100%;
+  .reviews h3 {
+    width: 100%;
   }
-  .reviews figure{
-    width:49%;
+  .reviews figure {
+    width: 49%;
   }
-  .reviews article div{
-    width:48%;
+  .reviews article div {
+    width: 48%;
   }
   footer h4 {
     font-size: 1.875em;
@@ -692,25 +693,28 @@ input[type=button] {
 
   /*About Page*/
   .mission h2,
-  .contact-section .content-wrapper h2{
+  .contact-section .content-wrapper h2 {
     width: 95%;
-    font-size:2em;
+    font-size: 2em;
+  }
+  .map figure {
+    padding-bottom: 38%;
   }
   .contact-content h4 {
     font-size: 1.275em;
   }
   /*FAQ Page */
 
-  .faq h2{
-    width:100%;
-    font-size:3em;
+  .faq h2 {
+    width: 100%;
+    font-size: 3em;
   }
   .faq h4,
   .faq p {
     font-size: 1.125em;
     line-height: 1;
   }
-
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
