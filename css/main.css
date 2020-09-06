@@ -215,15 +215,20 @@ footer .contact {
 }
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
 }
 footer .social-icons p {
   display: flex;
   align-content: center;
   justify-content: center;
 }
-
+.fa-2x {
+  font-size: 150%;
+}
+.fa-circle {
+  color: #527158;
+}
 footer .copyright {
   margin: 20px 0;
 }
@@ -240,11 +245,11 @@ footer .copyright {
   position: relative;
 }
 .hero-overlay {
-  padding: 25px 0px 450px 0px;
+  padding: 25px 0px 200px 0px;
 }
 
 .hero-area h1 {
-  margin: 5px;
+  margin: 25px;
   font-size: 2.25em;
   font-weight: 500;
   line-height: 1.2em;
@@ -486,7 +491,6 @@ input[type="button"] {
   /*Tablet*/
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
   }
   header {
     justify-content: space-around;
@@ -516,7 +520,7 @@ input[type="button"] {
     font-size: 3em;
     line-height: 1;
     margin: 50px;
-    width: 75%;
+    width: 100%;
   }
   aside .content-wrapper {
     margin: 50px 0;
@@ -529,12 +533,18 @@ input[type="button"] {
     width: 40%;
     margin: 0;
   }
+  .signup {
+    padding-top: 0;
+  }
   .features article {
     flex-basis: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+  }
+  .features i {
+    margin-left: 0;
   }
   .features .features-item-description {
     width: 62%;
@@ -566,7 +576,7 @@ input[type="button"] {
   }
   .footer-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     flex-direction: row;
   }
@@ -619,6 +629,11 @@ input[type="button"] {
     justify-content: space-between;
   }
   .faq-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .faq-content .question {
     flex-basis: 45%;
   }
   .faq h2 {
@@ -639,9 +654,6 @@ input[type="button"] {
     width: 33%;
     padding: 0;
   }
-  .hero-overlay {
-    padding-left: 60px;
-  }
   .content-wrapper {
     max-width: 960px;
   }
@@ -658,8 +670,10 @@ input[type="button"] {
     font-size: 1.125em;
     line-height: 1.333;
   }
+  .hero-overlay {
+    padding-top: 0;
+  }
   .hero-area h1 {
-    width: 52%;
     font-size: 3.75em;
     padding-left: 245px;
   }
