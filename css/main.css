@@ -672,6 +672,7 @@ input[type="button"] {
   }
   .hero-overlay {
     padding-top: 0;
+    padding-left: 60px;
   }
   .hero-area h1 {
     font-size: 3.75em;
